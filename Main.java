@@ -8,11 +8,11 @@ Scanner s=new Scanner(f);
 String[] tuple;
 String row;
 s.useDelimiter("\n");
-System.out.println("Name  \t  Age  \t  Skill\n_______________________");
+System.out.println("Name  \t  Age  \t  D.O.B  \t  Skill\n___________________________");
 while(s.hasNext()){
 row=s.next();
 tuple=row.split(" ");
-System.out.println(tuple[0]+"    "+tuple[1]+"    "+tuple[2]);
+System.out.println(tuple[0]+"    "+tuple[1]+"    "+tuple[2]+"     "+tuple[3]);
 }
 }catch(FileNotFoundException e){
     }
